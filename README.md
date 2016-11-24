@@ -17,8 +17,8 @@
 優點：是簡單、高效
 缺點：是所能虛擬的硬體平台範圍有限，且可能需要硬體
 舉例：
--Xen，guest OS必須進行明顯地修改才可以在Xen上運行，因此Xen無需特殊硬體支持。
--KVM是一種Linux kernel模組，可以修正QEMU program 使之用於硬體虛擬化。
+*Xen，guest OS必須進行明顯地修改才可以在Xen上運行，因此Xen無需特殊硬體支持。
+*KVM是一種Linux kernel模組，可以修正QEMU program 使之用於硬體虛擬化。
 
 ##3.OS Level 作業系統層級
 又稱共享式作業系統的虛擬化。
@@ -32,10 +32,10 @@
 應用層的虛擬技術是最常見的，如Java虛擬機器、微軟.net CLI和Parrot。
 
 ##5.Library Level 函式庫層級
-Wine庫（在linux下模擬windows的運行環境）
--補充：Wine不是Windows模擬器，而是運用API轉換技術實做出Linux對應到Windows相對應的函式來呼叫DLL以運行Windows程式。
-cygwin庫（在windows下模擬linux運行環境）
--補充：Cygwin的基礎是一套軟體模擬層，也就是cygwin1.dll，由此DLL（Dynamic Link Library，動態連結程式庫）提供POSIX的功能，在Windows上模擬出Linux。
+#Wine庫#（在linux下模擬windows的運行環境）
+*補充：Wine不是Windows模擬器，而是運用API轉換技術實做出Linux對應到Windows相對應的函式來呼叫DLL以運行Windows程式。
+#cygwin庫#（在windows下模擬linux運行環境）
+*補充：Cygwin的基礎是一套軟體模擬層，也就是cygwin1.dll，由此DLL（Dynamic Link Library，動態連結程式庫）提供POSIX的功能，在Windows上模擬出Linux。
 
 
 
