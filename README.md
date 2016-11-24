@@ -16,8 +16,9 @@
 
 優點：是簡單、高效
 缺點：是所能虛擬的硬體平台範圍有限，且可能需要硬體
-舉例：Xen，guest OS必須進行明顯地修改才可以在Xen上運行，因此Xen無需特殊硬體支持。
-　　　KVM是一種Linux kernel模組，可以修正QEMU program 使之用於硬體虛擬化。
+舉例：
+*Xen，guest OS必須進行明顯地修改才可以在Xen上運行，因此Xen無需特殊硬體支持。
+*KVM是一種Linux kernel模組，可以修正QEMU program 使之用於硬體虛擬化。
 
 ##3.OS Level 作業系統層級
 又稱共享式作業系統的虛擬化。
